@@ -321,6 +321,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/07/04/new-post-title/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/07/04/new-post-title/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -347,7 +357,12 @@
       
         
           
-            <p> 通过朋友得知一款受益于广大计算机爱好者的插件  其中很多功能非常实用，关键是还是免费的，给良心的作者点一个大大的赞，无私奉献的互联网精神<del>~</del></p>
+            <style>.container-text{ background-color:#f7f7f7 padding:10px} .content{background:#ffffff}</style>
+ <div class="content">
+ <div class="container-text">
+ 通过朋友得知一款受益于广大计算机爱好者的插件  其中很多功能非常实用，关键是还是免费的，给良心的作者点一个大大的赞，无私奉献的互联网精神 <a href="https://u.tools/" target="_blank" rel="noopener">Utools</a>
+ </div>
+ </div>
 
           
         
@@ -462,6 +477,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/07/02/mcckun/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/07/02/mcckun/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -603,6 +628,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/07/02/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/07/02/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -784,6 +819,8 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
 <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
@@ -792,6 +829,10 @@
 
   
 </div>
+
+
+
+
 
 
 
@@ -959,6 +1000,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'ruUD0V8kh6JB6A3ebFQ8s0R7-gzGzoHsz',
+        appKey: 'Lutq80RVtK8c8wW5nN6yOIgx',
+        placeholder: '来啊，快活啊',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
